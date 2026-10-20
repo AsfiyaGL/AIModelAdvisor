@@ -1,0 +1,27 @@
+[
+  {
+    "id": "gs-01",
+    "prompt": "Write a Python function that validates an email address using regex, with unit tests.",
+    "success_criteria": "Working regex validation function plus at least 3 pytest-style tests covering valid, invalid, and edge cases."
+  },
+  {
+    "id": "gs-02",
+    "prompt": "Summarise the following in 3 bullet points: Our Q2 training programme reached 1,200 learners across APAC and EMEA. Completion rates rose from 61% to 78% after we introduced cohort-based delivery. However, assessment pass rates fell 5 points, suggesting the new format trades depth for reach.",
+    "success_criteria": "Exactly 3 bullets, captures reach growth, completion improvement, and the pass-rate trade-off."
+  },
+  {
+    "id": "gs-03",
+    "prompt": "A training budget of $50,000 must cover 3 programmes. Programme A costs $120 per learner, B costs $200, and C costs $80. We need at least 100 learners in each programme and want to maximise total learners. How many learners should each programme get? Show your reasoning.",
+    "success_criteria": "Correct constrained-optimisation reasoning: fund minimums first (100 each = $40,000), spend the remaining $10,000 on the cheapest programme C (125 more learners), total 425 learners."
+  },
+  {
+    "id": "gs-04",
+    "prompt": "Draft a 100-word LinkedIn post announcing a new 'Agentic AI with LangChain' training cohort for enterprise engineers. Professional but energetic tone.",
+    "success_criteria": "Around 100 words, clear announcement, audience-appropriate tone, includes a call to action."
+  },
+  {
+    "id": "gs-05",
+    "prompt": "Extract the name, role, and location from this text as JSON: 'Priya Nair, a senior solutions architect based in Bengaluru, will lead the workshop.'",
+    "success_criteria": "Valid JSON with name Priya Nair, role senior solutions architect, location Bengaluru. Nothing else."
+  }
+]
